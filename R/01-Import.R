@@ -17,8 +17,6 @@ library(ggplot2)
 
 options(stringsAsFactors = FALSE) 
 
-setwd("E:/Privat/pjgithub/dataexpedition/patrick-hausmann")
-
 Read_Data <- function(m) {
     k <- list()
     for (i in seq_along(m)) {
